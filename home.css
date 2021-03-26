@@ -11,22 +11,22 @@ header {
   height: 100%;
 }
 
-li {
+li.web {
   font-family: sans-serif;
   display: inline;
   float: left;
 }
 
-li a {
+li.web a {
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-/* .container {
+.container {
     border: 1px solid black;
-} */
+}
 
 .flex-container {
   justify-content: right;
@@ -60,7 +60,7 @@ h1 {
   text-align: center;
 }
 
-.container.setan {
+.container.web {
   position: absolute;
   top: 0%;
   width: 100%;
@@ -96,7 +96,7 @@ h1 {
   box-shadow: 0px 20px 100px #555;
 }
 
-.container.setan:hover {
+.container.web:hover {
   cursor: pointer;
   transform: rotate(0deg) scale(1) translateY(10px);
   transition: .5s all ease;
@@ -118,15 +118,6 @@ h1 {
 
 #i2 {
   background: linear-gradient(to bottom, #59476f 30%, #7b88d1 100%);
-}
-
-span {
-  position: absolute;
-  top: 0%;
-  left: 55%;
-  border-radius: 100%;
-  background-color: #fff;
-  z-index: 10;
 }
 
 .sun {
@@ -225,14 +216,14 @@ span {
   top: 10%;
 }
 
-h3#setan {
+h3#web {
   text-align: center;
   text-shadow: 0px 0px 10px #eee;
   color: #eee;
   letter-spacing: 2px;
 }
 
-h4 {
+h4#web {
   color: #111;
   position: absolute;
   top: 30%;
@@ -240,14 +231,14 @@ h4 {
   letter-spacing: 2px;
 }
 
-h1#setan {
+h1#web {
   color: #111;
   top: 0%;
   left: 30%;
   letter-spacing: 2px;
 }
 
-p {
+p.web {
   font-size: 14px;
   color: #fff;
   padding: 0px 20px 20px 20px;
@@ -321,7 +312,8 @@ p {
 
 /* ================================================================================Card Animation */
 /* ================================================================================FOOTER */
-.footer {
+.footer.web {
+  font-family: sans-serif;
   position: fixed;
   left: 0;
   bottom: 0;
