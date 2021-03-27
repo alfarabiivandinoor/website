@@ -24,9 +24,9 @@ li.web a {
   text-decoration: none;
 }
 
-.container {
+/* .container {
     border: 1px solid black;
-}
+} */
 
 .flex-container {
   justify-content: right;
@@ -41,7 +41,7 @@ h1 {
   height: 150px;
   border: 1px solid black;
   width: auto;
-  background-image: url('ain.png');
+  background-image: url('Media/Logo/ain.png');
   background-size: 10%;
   background-repeat: repeat;
 }
